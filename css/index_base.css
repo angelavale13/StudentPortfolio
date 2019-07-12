@@ -1,0 +1,72 @@
+/*
+    Capstone Project
+    Student Portfolio
+
+    Author: Angela Valenzuela
+
+    Filename: index_base.css
+*/
+
+
+/* Basic styles to be used with all devices and under all conditions */
+
+
+
+html, header, nav, body, main, section, article, footer { 
+    display: block;
+}
+
+article, body, footer, 
+header, html, img, li, main,
+nav, nav a, section, ul {
+    
+    font-family: 'Noticia Text', serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+}
+
+
+/* Set the default page element styles */
+
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 3em;
+}
+body {
+   line-height: 1.2em;
+    text-align: center;
+}
+
+main {
+    background-color: darkolivegreen;
+}
+
+ul {
+   list-style: none;
+}
+
+
+nav ul {
+   list-style: none;
+   list-style-image: none;
+}
+
+nav a {
+   text-decoration: none;
+    font-size: 1.5em;
+}
+
+/*Footer Styles*/
+footer {
+    color: black;
+    margin: 10px 0;
+    padding: 15px;
+    text-align: center;
+}

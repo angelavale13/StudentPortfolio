@@ -1,0 +1,62 @@
+/*
+    Capstone Project
+    Student Portfolio
+
+    Author: Angela Valenzuela
+
+    Filename: about_styles.css
+*/
+
+/*Styles for Picture Container*/
+div.aboutMe {
+    margin: 15px auto;
+    padding: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+    border-bottom-color: black;
+}
+
+#picture1 {
+    float: left;
+    width: 33.33%;
+}
+
+#picture2 {
+    float: left;
+    width: 33.33%;
+}
+
+#picture3 {
+    float: left;
+    width: 33.33%;
+}
+
+/*Styles for Intro*/
+div.introMe {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+/*Figure Box Styes*/
+figure {
+    box-shadow: #9B8F8B 5px 5px 5px;
+    background-color: white;
+    margin: 0px 5px;
+    padding: 10px;
+    height: 330px;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    height: 267px;
+}
+
+figure figcaption {
+    background-color: white;
+    padding: 20px 10px;
+    text-align: center;
+    font-style: italic;
+}

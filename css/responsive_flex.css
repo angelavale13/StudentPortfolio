@@ -1,0 +1,144 @@
+/*
+        Final Project Step 7
+		Student Portfolio
+
+		Author: Angela Valenzuela
+		Date: 12/05/2018
+		
+		Filename: responsive_flex.css
+*/
+
+
+/* ================
+   Base Flex Styles
+   ================
+*/
+
+body {
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+header, footer {
+	width: 100%;
+}
+
+article {
+	-webkit-flex: 3 1 361px;
+	flex: 3 1 361px;
+}
+
+/* =========================
+   Mobile Styles: 0 to 480px 
+   =========================
+*/
+
+@media only screen and (max-width: 480px) {
+	
+    
+	div.video {
+		-webkit-order: 99;
+		order: 99;
+	}
+	
+	/* Footer Style */
+	footer {
+		-webkit-order: 100;
+		order: 100;
+	}
+    
+    /* DIV Styles */
+     div.aboutMe {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+         margin: auto;
+    }
+    
+   #picture0 {
+        flex: 50%;
+       max-width: 50%;
+        margin: auto;
+    }
+    
+    div.pleaseLeaveMsg {
+        flex: 50%;
+        margin: auto;
+    }
+    
+    #picture1 {
+        flex: 100%;
+        max-width: 51%;
+        margin: 10px auto;
+    }
+
+    #picture2 {
+        flex: 100%;
+        max-width: 51%;
+        margin: 10px auto;
+
+    }
+
+    #picture3 {
+        flex: 100%;
+        max-width: 51%;
+        margin: 10px auto;
+
+    }
+    
+    div.art {
+        flex: 100%;
+        max-width: 100%;
+        margin: 10px auto;
+    }
+    
+    #artPoster {
+        flex: 100%;
+        max-width: 51%;
+        margin: 10px auto;
+}
+
+    #artBluray {
+        flex: 100%;
+        max-width: 51%;
+        margin: 10px auto;
+    }
+
+}
+
+/* ============================================
+   Tablet and Desktop Styles: 481px and greater 
+   ============================================
+*/
+
+@media only screen and (min-width: 481px) {
+    
+    /* DIV Styles */
+    div.aboutMe {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    
+       div.contactContainer {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    
+    div.art{
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    
+}
+
+
