@@ -10,7 +10,7 @@
     Author: Angela Valenzuela
     Date: 05/01/2019
 
-    Filename: contact.html
+    Filename: efolio.html
 	-->
     <meta charset="utf-8"> <!-- character encoding-->
     <meta name="author" content="Angela Valenzuela">
@@ -18,10 +18,9 @@
     <meta name="keywords" content="student, portfolio, web dev, web design, web development, ui, ux">
     <meta name="description" content="student portfolio">
     <title>Angela Valenzuela Portfolio Home Page</title>
-    <link href="css/index_base.css" rel="stylesheet" />
-    <link href="css/index_styles.css" rel="stylesheet" />
-    <link href="css/efolio_styles.css" rel="stylesheet" />
-    <link href="css/responsive_flex.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/sidebar_styles.css">
+    <link rel="stylesheet" href="css/index_base.css">
+    <link rel="stylesheet" href="css/index_styles.css">
     <!--Body Google Font stylesheet-->
     <link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
     <!--H1 Google Font stylesheet -->
@@ -29,54 +28,33 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="efolio.html">Resume &amp; Portfolio</a></li>
-                <li><a href="contact.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h1>Projects</h1>
-        
-            <blockquote>
-                Dreams don't work unless you do
-            </blockquote>
-            <!--Bookmark Created to allow jump from index page -->
-            <h2 id="artPst">Art</h2>
-            <div class="art">
-                <article>
-                <div id="artPoster">
-                    <figure>
-                        <img src="media/ArtSchoolPoster_AValenzuela.png" alt="art poster" />
-                        <figcaption>PHX Art League</figcaption>
-                    </figure>
-                </div>
-                <div id="artBluray">
-                    <figure>
-                        <img src="media/Blu-Ray_AValenzuela.png" alt="angela" />
-                        <figcaption>BluRay Design</figcaption>
-                    </figure>
-                </div>
-                </article>
-            </div>
-            <!--End art project div-->
-            <h2 id="webDsn">Web Design</h2>
-            <div class="webDesign">
-                <article>
-                    <a href="https://gypsyaav.000webhostapp.com/">School Project Part 1</a>
-                    <a href="https://hideaway1988.000webhostapp.com/">School Project Part 2</a>
-                </article>
-            </div>
-            <!--End web design project div-->
-    </section>
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button">About Me</a>
+        <a href="efolio.html" class="w3-bar-item w3-button">Resume &amp; Portfolio</a>
+        <a href="blog.html" class="w3-bar-item w3-button">Blog</a>
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+    <aside>
+        <div>
+            <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+            <div class="w3-container"></div>
+        </div>
+    </aside>
+    <div class="wrapper">
+        <div class="title"><h1>Angela Valenzuela</h1> <br />UI/UX Web Designer</div>
+        Portfolio Here
+        Resume Here
+    </div>
     <footer>
         Mesa Community College &nbsp; Southern and Dobson Campus &#8226; 1833 West Southern Ave Mesa &nbsp; AZ 85202 &#8226; 480-461-7000
     </footer>
+    <script src="sidebar.js"></script>
 </body>
 
 </html>

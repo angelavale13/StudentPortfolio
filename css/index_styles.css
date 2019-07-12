@@ -10,11 +10,33 @@
 /*HTML and Body Styles*/
 
 html {
-	background-color: white;
-    font-family: 'Rock Salt', cursive;
+	background-color: rgb(14, 33, 11);
+}
+
+.letter {
+    float: right;
+    text-align:left;
+    height: auto;
+    line-height: 1.5em;
+    width: 400px;
+    margin-top: 80px;
+    margin-right: 80px;
+}
+
+img {
+    clear: right;
+    border-radius: 20%; 
+    padding: 20px 20px;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    line-height: .5em;
 }
 
 body {
+    background-color: white;
 	display: block;
 	min-width: 700px;
 	max-width: 1024px;
@@ -23,130 +45,23 @@ body {
 }
 
 
-/*Header Styles*/
-
-body > header {
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-flow: row wrap;
-   flex-flow: row wrap; 
-   -webkit-align-items: flex-end;
-   align-items: flex-end; 
-}
-
-img#logo {
-    vertical-align: middle;
-    height: 80px;
-    width: auto;
-}
-
-
-/*Navigation List Styles*/
-
-nav {
-    display: -webkit-flex;
-	display: flex;
-	padding: 20px 80px;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-nav li {
-    display: inline;
-	border-right: 1px solid black;
-}
-nav li:last-child {
-    border-right: none;
-}
-nav li a {
-	text-decoration: none;
-	text-align: center;  
-	padding: 5px 16px;
-}
-nav li a:link {color: black;}
-nav li a:visited {color: black;}
-nav li a:hover {font-size: 2em;}
-
-
-
-/*Picture Styles*/
-
-.card {
-    display:inline-block;
-    width:136px;
-    height:215px;
-    background-image:url("../media/tarot.jpg");
-    
-}
-
-/*DIV Styles*/
-/*introductionParagraph*/
-div.intro {
-    margin: 10px;
-    padding: 10px;
+.wrapper {
     background-color: white;
+    display: block;
+    min-width: 700px;
+	max-width: 1024px;
+    margin: 35px;
 }
 
-#web {
-    margin: 10px;
+aside {
+    float: left;
 }
 
-#art {
-    margin: 10px;
-}
 
-#gitlab{
-    margin: 10px;
-    
-}
-#art:hover {
-    background-image:url("../media/ART.png"); /* 11/26/18: art candy skull image */
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
 
-#web:hover {
-    background-image:url("../media/WEBICON.png");/* 11/26/18: web candy skull image */
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-#gitlab:hover {
-    background-image:url("../media/CODE.png");/* 11/26/18: code candy skull image */
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-/*Table Styles*/
 
-table.schedule {
-    border-style: dashed;
-    border-width: 8px;
-    border-color: #a5453e;
-    border-radius: 25px;
-    font-size: 1em;
-    width: 100%;
-    padding: 10px;
-    
-}
 
-table.schedule th{
-    background-color: #6D2A2A;
-    border-radius: 8px;
-    color: white;
-    margin: 10px;
 
-}
-
-table.schedule td {
-    background-color: #E09089;
-    border-radius: 8px;
-    margin: 10px;
-}
 

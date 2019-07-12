@@ -36,17 +36,15 @@ nav, nav a, section, ul {
 
 h1 {
     font-family: 'Rock Salt', cursive;
-    text-align: center;
-    font-size: 3em;
+    text-align:center;
+    font-size: 1.5em;
 }
 body {
    line-height: 1.2em;
     text-align: center;
 }
 
-main {
-    background-color: darkolivegreen;
-}
+
 
 ul {
    list-style: none;

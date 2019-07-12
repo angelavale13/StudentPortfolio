@@ -1,3 +1,4 @@
+"use strict";
 /*
    Final Project Step 6
    Student Portfolio
@@ -19,6 +20,7 @@
             student does not have to continually retype test values
             in the survey form.
 */
+
 
 function setForm() {
    document.forms[0].onsubmit = function() {

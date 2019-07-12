@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--markup language-->
+<html lang="en">
+
+<head>
+    <!-- 
+    Capstone Project
+    Student Portfolio
+
+    Author: Angela Valenzuela
+    Date: 05/01/2019
+
+    Filename: blog.html
+	-->
+    <meta charset="utf-8"> <!-- character encoding-->
+    <meta name="author" content="Angela Valenzuela">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="student, portfolio, web dev, web design, web development, ui, ux">
+    <meta name="description" content="student portfolio">
+    <title>Angela Valenzuela Portfolio Home Page</title>
+    <link rel="stylesheet" href="css/sidebar_styles.css">
+    <link rel="stylesheet" href="css/index_base.css">
+    <link rel="stylesheet" href="css/index_styles.css">
+    <!--Body Google Font stylesheet-->
+    <link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
+    <!--H1 Google Font stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button">About Me</a>
+        <a href="efolio.html" class="w3-bar-item w3-button">Resume &amp; Portfolio</a>
+        <a href="blog.html" class="w3-bar-item w3-button">Blog</a>
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+    <aside>
+        <div>
+            <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+            <div class="w3-container"></div>
+        </div>
+    </aside>
+    <div class="wrapper">
+        <div class="title"><h1>Angela Valenzuela</h1> <br />UI/UX Web Designer</div>
+        <div class="letter">
+                Dear Guest:<br />
+                Thank you for taking the time to review my website.
+                Please feel free to reach out to me via email at ang2073552@maricopa.edu if you have any questions or just want to chat!<br />
+                Best Regards,<br />
+                Angela
+        </div>
+        <img src="media/myFace2.jpg" width="30%" height="20%" style= " border-radius: 20%; margin:auto; padding: 20px 20px; ">
+    </div>
+    <footer>
+        Mesa Community College &nbsp; Southern and Dobson Campus &#8226; 1833 West Southern Ave Mesa &nbsp; AZ 85202 &#8226; 480-461-7000
+    </footer>
+    <script src="sidebar.js"></script>
+</body>
+
+</html>
