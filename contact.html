@@ -21,20 +21,11 @@
     <link rel="stylesheet" href="css/sidebar_styles.css">
     <link rel="stylesheet" href="css/index_base.css">
     <link rel="stylesheet" href="css/index_styles.css">
+    <script src="contact.js" defer></script>
     <!--Body Google Font stylesheet-->
     <link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
     <!--H1 Google Font stylesheet -->
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
-    <!--Jquery for contact form-->
-    <script type="text/javascript" 
-            src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script type="text/javascript" 
-            src="./easy-comment/jquery.easy-comment.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function(){
-            $("#id_of_your_comment_container").EasyComment();
-        });
-    </script>
 </head>
 
 <body>
@@ -58,10 +49,28 @@
     </aside>
     <div class="wrapper">
         <div class="title"><h1>Angela Valenzuela</h1> <br />UI/UX Web Designer</div>
-        
-        <div id="id_of_your_comment_container" style="width:1024px;height:800px;">
-        
-        </div>
+        <form id="guestBook" action="contactForm.php" method="post">
+                    <fieldset id="visitorInfo">
+                        <legend>Visitor Guest Book</legend>
+                            <div class="name">
+                                <label for="fName">Name</label>
+                                <input name="firstName" id="fName" type="text" size="30" placeholder="your nickname" maxlength="15" required />
+                            </div>
+                            <div class="smail">
+                                <label for="mail">E-mail</label>
+                                <input name="email" id="mail" type="email" size="50" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="your email" required/>
+                            </div>
+                    </fieldset>
+                    <fieldset id="visitorNote">
+                        <legend>Drop a little note!</legend>
+                            <label for="commBox">Comment Box</label>
+                            <textarea name="guestComment" id="commBox" placeholder="Please enter a message" required></textarea> 
+                    </fieldset>
+                    <div id="buttons">
+                        <input type="submit" value="Send" />
+                        <input type="reset" value="Cancel" />
+                    </div>
+                </form>
     </div>
     <footer>
         &copy; Copyright 2019 &#124; Angela Valenzuela
