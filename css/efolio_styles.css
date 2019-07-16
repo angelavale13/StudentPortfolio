@@ -7,6 +7,12 @@
     Filename: efolio_styles.css
 */
 
+.icons{
+    
+    border-style: groove;
+    border-radius: 25px;
+}
+
 #paintBrush {
     padding:5px;
 }
