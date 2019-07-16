@@ -7,108 +7,11 @@
     Filename: efolio_styles.css
 */
 
-
-/* H1 Projects Title */
-h1 {
-    font-family: 'Rock Salt', cursive;
-    text-align: center;
-    font-size: 2em;
+#paintBrush {
+    padding:5px;
 }
 
-/* H2 Section Titles*/
-h2 {
-    margin:auto;
-    padding: 10px;
-}
-
-/*Blockquote Styles*/
-
-blockquote{
-    margin: 20px 5px;
-    quotes: "\201C" "\201D";
-    font-weight: 300;
-}
-
-/* 12/03/18: Before and After Pseudo elements are used to insert some content before/after content of an element*/
-blockquote::before{
-    content: open-quote;
-    font-family: 'Rock Salt', cursive;
-    font-size: 1em;
-}
-
-blockquote::after{
-    content: close-quote;
-    font-family: 'Rock Salt', cursive;
-    font-size: 1em;
-}
-
-/*Figure Box Styes*/
-figure {
-    box-shadow: #9B8F8B 5px 5px 5px;
-    background-color: black;
-    margin: 0px 5px;
-    padding: 10px;
-    height: 330px;
-}
-
-figure img {
-    display: block;
-    width: 100%;
-    height: 300px;
-}
-
-figure figcaption {
-    background-color: black;
-    padding: 10px 10px;
-    text-align: center;
-    font-style: italic;
-    color: white;
-}
-
-/* Div Styles*/
-
-/*ART div container*/
-div.art{
-    margin: 15px auto;
-    padding: 10px;
-    border-bottom-style: ridge;
-    border-bottom-width: 8px;
-    border-bottom-color: #a5453e;
-}
-
-#artPoster {
-    max-width: 40%;
-    margin: auto;
-}
-
-#artBluray {
-    max-width: 40%;
-    margin: auto;
-}
-
-/*WEBDESIGN div container*/
-div.webDesign{
-    margin: auto;
-    padding: 10px;
-    border-bottom-style: ridge;
-    border-bottom-width: 8px;
-    border-bottom-color: #a5453e;
-}
-
-div.wd1 {
-    margin: 10px;
-    padding: 10px;
-}
-
-div.wd2{
-    margin: 10px;
-    padding: 10px;
-}
-
-/*CODE div container*/
-div.codeX {
-    margin: 15px auto;
-    padding: 10px;
-    max-width: 40%;
+figcaption {
+    padding:5px;
 }
 

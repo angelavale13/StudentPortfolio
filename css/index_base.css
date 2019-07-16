@@ -44,8 +44,11 @@ body {
     text-align: center;
 }
 
-
-
+.logo {
+    padding:5px;
+    margin:5px;
+    box-sizing: border-box;
+}
 
 ul {
    list-style: none;

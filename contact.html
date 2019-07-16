@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/sidebar_styles.css">
     <link rel="stylesheet" href="css/index_base.css">
     <link rel="stylesheet" href="css/index_styles.css">
+    <link rel="stylesheet" href="css/contact_styles.css">
     <!--Body Google Font stylesheet-->
     <link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
     <!--H1 Google Font stylesheet -->
@@ -47,21 +48,25 @@
         </div>
     </aside>
     <div class="wrapper">
-        <div class="title"><h1>Angela Valenzuela</h1> <br />UI/UX Web Designer</div>
+        <div class="title">
+            <img class="logo" src="media/logo.png">
+            <h1>Angela Valenzuela</h1>
+            <br />UI/UX Web Designer
+        </div>
+        <h2>Contact me</h2>
         <form id="guestBook" action="contactForm.php" method="post">
-                    <fieldset id="visitorInfo">
-                        <legend>Visitor Guest Book</legend>
+                    <fieldset id="visitorNote">
+                        <legend>Drop a little note!</legend>
                             <div class="name">
                                 <label for="fName">Name</label>
-                                <input name="firstName" id="fName" type="text" size="30" placeholder="your nickname" maxlength="15" required />
+                                <input name="firstName" id="fName" type="text" size="30" placeholder="Your Name" maxlength="15" required />
                             </div>
                             <div class="smail">
                                 <label for="mail">E-mail</label>
-                                <input name="email" id="mail" type="email" size="50" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="your email" required/>
+                                <input name="email" id="mail" type="email" size="50" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Your Email" required/>
                             </div>
-                    </fieldset>
-                    <fieldset id="visitorNote">
-                        <legend>Drop a little note!</legend>
+                    
+                        
                             <label for="commBox">Comment Box</label>
                             <textarea name="guestComment" id="commBox" placeholder="Please enter a message" required></textarea> 
                     </fieldset>

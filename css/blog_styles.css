@@ -1,0 +1,17 @@
+.tblock {
+    display:inline-grid;
+    flex-direction:column;
+    width:75%;
+}
+
+.tcomponent {
+    display: block;
+    border-style: groove;
+    border-radius: 25px;
+    box-sizing: content-box;
+    margin:10px;
+    
+}
+
+
+

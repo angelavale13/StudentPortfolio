@@ -8,52 +8,22 @@
 */
 
 
-/*Figure Box Styes*/
-figure {
-    float: left;
-    box-shadow: #9B8F8B 5px 5px 5px;
-    background-color: white;
-    margin: 10px 5px;
-    padding: 10px;
-    height: 330px;
-}
-
-figure img {
-    display: block;
-    width: auto;
-    height: 267px;
-}
-
-figure figcaption {
-    background-color: white;
-    padding: 20px 10px;
-    text-align: center;
-    font-style: italic;
-}
 
 /*Form Styles*/
 form#guestBook { 
-    border-style: solid;
-    border-width: 8px;
-    border-color: black;
-    color:black;
-	padding: 10px;
-    margin: 10px;
+    border-radius: 3px;
+    box-sizing: content-box;
+    width:75%;
+    margin-left:90px;
 }
 
 form#guestBook > label{
     padding: 20px;
 }
 
-/*Form DIV "email" style*/
-    .smail{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
 
 /*Form fieldset Styles*/
 form#guestBook > fieldset{
-    background-color: white;
     border-radius: 25px;
     padding: 10px;
     margin: 10px;
@@ -61,23 +31,12 @@ form#guestBook > fieldset{
 
 /*Form Legend Styles*/
 legend {
-    background-color: #a5453e;
-    color: white;
+    border-radius: 85px;
+    border-style: groove;
+    padding:5px;
+    background-color: #f0c722;
 }
 
-/*DIV Page Styles*/
-div.contactContainer {
-    margin: 5px;
-    padding: 10px;
-}
-
-/*DIV Page Style Text*/
-div.pleaseLeaveMsg{
-    float: right;
-    width: 50%;
-    margin: auto;
-    padding: 10px;
-}
 
 /*Form Text Area Styles*/
 textarea {
@@ -89,20 +48,18 @@ textarea {
 /*Form Button Styles*/
 div#buttons {
     text-align: center;
-    width: 100%;
 }
 
 /*Button Styles*/
 input[type='submit'], input[type='reset'] { 
-    padding: 5px 5px;
+    padding: 10px;
     margin: 15px;
+    border-radius: 25px;
+    background-color: #f0c722;
+    font-size: .8em;
 }
 
-/*Address Styles*/
-address {
-    display: block;
-    margin:10px;
-}
+
 
 /*Email Link Styles*/
 a:link {color: black;}

@@ -13,7 +13,9 @@ img {
 }
 
 p {
-    padding: 50px;
+    text-align: center;
+    width:70%;
+    margin-left:150px;
 }
 .aboutMe {
     display:block;

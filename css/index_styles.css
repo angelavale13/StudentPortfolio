@@ -10,16 +10,16 @@
 /*HTML and Body Styles*/
 
 html {
-	background-color: rgb(14, 33, 11);
+	background-color: #0e210b;
 }
 
 .letter {
     float: right;
-    text-align:left;
+    text-align:justify;
     height: auto;
     line-height: 1.5em;
-    width: 400px;
-    margin-top: 80px;
+    width: 50%;
+    margin-top: 50px;
     margin-right: 80px;
 }
 
