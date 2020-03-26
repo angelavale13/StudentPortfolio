@@ -17,10 +17,14 @@ html {
     float: right;
     text-align:justify;
     height: auto;
-    line-height: 1.5em;
+    line-height: 1.6;
     width: 50%;
     margin-top: 50px;
     margin-right: 80px;
+}
+
+p{
+    line-height: 1.6;
 }
 
 img {
