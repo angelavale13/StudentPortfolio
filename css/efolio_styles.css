@@ -13,8 +13,28 @@
     border-radius: 25px;
 }
 
-#paintBrush {
-    padding:5px;
+
+h3, h4, p{
+    text-align: left;
+}
+
+.mobileImg{
+    border-radius: 0;
+}
+
+.tabletImg{
+    border-radius: 0;
+}
+
+.desktopImg{
+    border-radius: 0;
+    width:100%;
+}
+
+.twoDArt{
+    clear: both;
+    padding-right: 80%;
+    border-radius: 0px;
 }
 
 figcaption {
